@@ -8,23 +8,23 @@ function koupit() {
     cenaDohromady = cenaDohromady + 19.90
     kosik = kosik + 1
     penize = penize - 19.90
-    alert('Successfully bought ' + produkt + ' with the price 19.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
+    alert('Successfully added product ' + produkt + ' with the price 19.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
   } else if (produkt === '38836' && penize > 16.89) {
     cenaDohromady = cenaDohromady + 16.90
     kosik = kosik + 1
     penize = penize - 16.90
-    alert('Successfully bought ' + produkt + ' with the price 16.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
+    alert('Successfully added product ' + produkt + ' with the price 16.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
   } else if (produkt === '48832' && penize > 21.89) {
     cenaDohromady = cenaDohromady + 21.90
     kosik = kosik + 1
     penize = penize - 21.90
-    alert('Successfully bought ' + produkt + ' with the price 21.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
+    alert('Successfully added product ' + produkt + ' with the price 21.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
   } else if (produkt === '00000' && penize > 18.89) {
     cenaDohromady = cenaDohromady + 18.90
     kosik = kosik + 1
     penize = penize - 21.90
     var vlastni = prompt('Ingredients of your custom pizza:')
-    alert('Successfully bought ' + produkt + ' with the price 18.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
+    alert('Successfully added product ' + produkt + ' with the price 18.90 to basket, now you have  ' + kosik + ' pizzas with a total price of ' + cenaDohromady + ' CZK')
   } else if (produkt === '') {
     return
   } else if (produkt === undefined) {
