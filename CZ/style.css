@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  font-size: 100%
+}
+table {
+  font-size: 175%;
+  font-family: monospace;
+}
+th, td {
+  border: 2px solid #000000;
+}
+button {
+  font-size: 130%
+}
