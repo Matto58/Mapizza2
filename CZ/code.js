@@ -22,9 +22,9 @@ function koupit() {
   } else if (produkt === '00000' && penize > 18.89) {
     cenaDohromady = cenaDohromady + 18.90
     kosik = kosik + 1
-    penize = penize - 21.90
+    penize = penize - 18.90
     var vlastni = prompt('Ingredience pizzy:')
-    alert('Úspěšně zakoupeno ' + produkt + ' z cenou 21.90 a v košiků máte ' + kosik + 'x pizzy z cenou ' + cenaDohromady + ' Kč')
+    alert('Úspěšně zakoupeno ' + produkt + ' z cenou 18.90 a v košiků máte ' + kosik + 'x pizzy z cenou ' + cenaDohromady + ' Kč')
   } else if (produkt === '') {
     return
   } else if (produkt === undefined) {
